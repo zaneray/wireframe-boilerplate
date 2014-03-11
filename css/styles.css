@@ -1,0 +1,50 @@
+/*Core Wireframe styles*/
+
+body, input, textarea, select {
+  background: #222;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#zr-utilities {
+  background: rgba(0,0,0,.8);
+  padding: 15px;
+  color: #fff;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+#zr-utilities label {
+  font-weight: inherit;
+}
+
+#page {
+  background: #fff;
+  color: #222;
+}
+
+#notes h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+#notes-details {
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px;
+  background: rgba(255,255,255,.06);
+}
+
+.unit {
+  background: #eee;
+  border: #ccc;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
